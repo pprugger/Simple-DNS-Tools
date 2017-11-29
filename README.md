@@ -7,7 +7,7 @@ Remember the index number and change ("SELECT * FROM Win32_NetworkAdapterConfigu
 If you want to change the DNS settings of all NICs simultaneously change ("SELECT * FROM Win32_NetworkAdapterConfiguration WHERE Index = 1") to ("SELECT * FROM Win32_NetworkAdapterConfiguration WHERE IPEnabled = True") like seen in the show-dns-settings.vbs script.
 
 The reset and set dns admin scripts are powershell scripts. They can be used if you have no admin rights with your current user and you have the credentials for an admin user.
-Just change the paths to the paths to the desired scripts in the powershell files.
+Just change the paths in the ps1 files to your desired script path.
 
 
 
